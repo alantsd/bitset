@@ -51,11 +51,11 @@ bool        bitset_is_set	        (bitset_t const* set, int bit_pos);
 bool        bitset_is_clr         	(bitset_t const* set, int bit_pos);
 
 /** find bit index */
-int			bitset_first_set_bit	(bitset_t* set);
+int		bitset_first_set_bit	(bitset_t* set);
 int    		bitset_first_clr_bit  	(bitset_t* set);
 
-int			bitset_last_set_bit		(bitset_t* set);
-int    		bitset_last_clr_bit		(bitset_t* set);
+int		bitset_last_set_bit	(bitset_t* set);
+int    		bitset_last_clr_bit	(bitset_t* set);
 
 /** No logical operation - I don't see common needs for this yet */
 
