@@ -8,5 +8,11 @@ Design aim no bloat, as lean as possible.
 find first set bit.
 find first zero bit.
 
-text    data     bss     dec     hex filename
-564       0       0     564     234 arm_build\bitset.o
+text	564
+data	0
+bss		0
+dec		564
+hex		564
+
+filename
+arm_build\bitset_lib.o
