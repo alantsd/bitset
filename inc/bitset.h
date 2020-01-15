@@ -30,14 +30,14 @@
  *
  */
 
-#define BIT_SET_STORAGE_ELEMENT_BIT			(32)
+#define BIT_SET_STORAGE_ELEMENT_BIT		(32)
 #define BIT_SET_STORAGE_LEN(bit_count)		(bit_count / BIT_SET_STORAGE_ELEMENT_BIT)
 
 typedef uint32_t	bitset_storage_t;
 
 typedef struct bitset
 {
-	int						size;
+	int				size;
 	bitset_storage_t*		bits;
 }
 bitset_t;
