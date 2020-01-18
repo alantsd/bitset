@@ -5,8 +5,11 @@ bitset is set for efficient storing bits for embedded systems (ARM M3/M4 microco
 
 Design aim no bloat, as lean as possible.
 
-find first set bit.
-find first zero bit.
+int			bitset_first_set_bit	(bitset_t* set);
+int			bitset_first_clr_bit	(bitset_t* set);
+
+int			bitset_last_set_bit		(bitset_t* set);
+int			bitset_last_clr_bit		(bitset_t* set);
 
 text	424
 data	0
