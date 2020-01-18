@@ -3,6 +3,7 @@ Ditset is set for efficient storing bits for embedded systems (ARM cortex M3/M4 
 Implementation use efficient search intruction for ARM cortex M3/M4.
 Design aim minimal, no bloat, as lean as possible.
 
+example test prject use code::block IDE
 # function
 ```
 int			bitset_first_set_bit(bitset_t* set);
