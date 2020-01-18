@@ -4,11 +4,13 @@ Implementation use efficient search intruction for ARM cortex M3/M4.
 Design aim minimal, no bloat, as lean as possible.
 
 # function
-int			bitset_first_set_bit	(bitset_t* set);
-int			bitset_first_clr_bit	(bitset_t* set);
+```
+int			bitset_first_set_bit(bitset_t* set);
+int			bitset_first_clr_bit(bitset_t* set);
 
-int			bitset_last_set_bit		(bitset_t* set);
-int			bitset_last_clr_bit		(bitset_t* set);
+int			bitset_last_set_bit(bitset_t* set);
+int			bitset_last_clr_bit(bitset_t* set);
+```
 
 # Flash size (-Os)
 text	424 bytes
